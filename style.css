@@ -2,10 +2,31 @@ body{
 	background-color: rgba(185,123,20,0.2);
 }
 
-h1{
+.jumbotron{
+	text-align: center;
+	color: brown;
+}
+
+#top{
 	text-align: center;
 }
 
-#container{
-	text-align: center;
+li{
+	color: darkred;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+#input{
+	width: 170px;
+	height: 35px;
+	margin-bottom: 20px;
+}
+
+h3{
+	color: brown;
+}
+
+.table{
+	background-color: #eee;
 }
