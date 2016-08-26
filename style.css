@@ -4,7 +4,7 @@ body{
 
 .jumbotron{
 	text-align: center;
-	color: brown;
+	background:url(http://filmenglish.files.wordpress.com/2012/02/to-do-list-title.png);
 }
 
 #top{
@@ -25,6 +25,7 @@ li{
 
 h3{
 	color: brown;
+	font-weight: bold;
 }
 
 .table{
