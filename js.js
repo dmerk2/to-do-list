@@ -3,7 +3,6 @@ $(document).ready(function(){
 	  var add = $('#input').val();	  	
 		$('ol').append("<li>" + add + '</li>');
 		$("ol").append("<button>" + add + "</button>")
-
 	});
 });
 
