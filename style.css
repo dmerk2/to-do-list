@@ -3,7 +3,6 @@ body{
 }
 
 .jumbotron{
-	text-align: center;
 	background:url(http://filmenglish.files.wordpress.com/2012/02/to-do-list-title.png);
 }
 
@@ -28,6 +27,23 @@ h3{
 	font-weight: bold;
 }
 
-.table{
+.row{
 	background-color: #eee;
 }
+
+#deleteButton{
+	float: right;
+}
+
+#todoList{
+	float: left;
+}
+
+.panel{
+	background-color: rgb(230,200,150);
+}
+
+/*@media only screen and (min-width: 768px) {
+	.col-4 {width: 33.33%;}
+}
+*/

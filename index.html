@@ -16,35 +16,37 @@
 </div>
 	
 	<div id="top">
-		<input placeholder="Add needs to get done!" type="text" id="input"/>
+		<input placeholder="Add a task!" type="text" id="input"/>
 		<button id="btn" class="btn btn-primary"><i class="glyphicon glyphicon-pencil
 "> Add</i></button>
+
+
+
+
+
+			<!-- Clear list button -->
+	<!-- <button id='clearButton' class="btn btn-primary"><i class="glyphicon glyphicon-trash">Push to Clear</i></button> -->
 	</div>
 
-
+	<div class="panel">
 		<div class="panel panel-default">
 			<div class="table">
-				<div class="table table-bordered">
 				<div class="row"></div>
-    			<div class="col-md-3"><h3>To Do #</h3></div>
+    			<div class="col-md-4"><h3>Task</h3></div>
     		<div class="row">
-    			<div class="col-md-3"><h3>Task</h3></div>
+    			<div class="col-md-4"><h3>Completed</h3></div>
     		<div class="row">
-    			<div class="col-md-3"><h3>Completed</h3></div>
-    		<div class="row">
-    			<div class="col-md-3"><h3>Notes</h3></div>
+    			<div class="col-md-4"><h3>Notes</h3></div>
 				</div>
 		  </div>
 		 </div>
 		</div>
-
-
-
-
+	
+	<form id="form">
+		<!--Delete Button-->
+	<button id="deleteButton"><i id="trash" class="glyphicon glyphicon-trash">X</i></button>
         <ol id="todoList"></ol>
+    </form>
 
-
-
- 
 </body>
 </html>
