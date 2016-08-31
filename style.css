@@ -4,6 +4,7 @@ body{
 
 .jumbotron{
 	background:url(http://filmenglish.files.wordpress.com/2012/02/to-do-list-title.png);
+	background-position: cover;
 }
 
 #top{
@@ -31,18 +32,13 @@ h3{
 	background-color: #eee;
 }
 
-#deleteButton{
-	float: right;
-}
-
-#todoList{
-	float: left;
-}
-
 .panel{
 	background-color: rgb(230,200,150);
 }
 
+#delete{
+	
+}
 /*@media only screen and (min-width: 768px) {
 	.col-4 {width: 33.33%;}
 }

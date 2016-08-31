@@ -1,10 +1,12 @@
 $(document).ready(function(){
 	$('#btn').click(function(){
-	  var add = $('#input').val();
-		$('ol').append("<li>" + add + '</li>' + add + "<button>" + add + "<i>");
-		$("delete").val()
+	  var add = $('#input').val();	  	
+		$('ol').append("<li>" + add + '</li>');
+		$("ol").append("<button>" + add + "</button>")
+
 	});
 });
+
 
 
 	//HOW TO MAKE BUTTON CLEAR??????????
