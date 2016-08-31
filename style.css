@@ -36,8 +36,9 @@ h3{
 	background-color: rgb(230,200,150);
 }
 
-#delete{
-	
+#todoList{
+	margin-right: 50%;
+	margin-left: 40%;
 }
 /*@media only screen and (min-width: 768px) {
 	.col-4 {width: 33.33%;}
