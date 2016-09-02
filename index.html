@@ -17,31 +17,27 @@
   
 	<div id="top">
 		<input placeholder="Add a task!" type="text" id="input"/>
-		<button id="btn" class="btn btn-primary"><i class="glyphicon glyphicon-pencil
-"> Add</i></button>
+		<button id="btn" class="btn btn-primary"><i class="glyphicon glyphicon-pencil"> Add</i></button>
 
 			<!-- Clear list button -->
-	<button class="clearButton btn btn-primary"><i class="glyphicon glyphicon-trash">Push to Empty</i></button>
+	<button id="clearButton" class="btn btn-primary"><i class="glyphicon glyphicon-trash">Push to Empty</i></button>
 	</div>
 
 	<div class="panel">
 		<div class="panel panel-default">
 			<div class="table">
-				<div class="row"></div>
-    			<div class="col-md-4"><h3>Task</h3></div>
-    		<div class="row">
-    			<div class="col-md-4"><h3>Completed</h3></div>
-    		<div class="row">
-    			<div class="col-md-4"><h3>Date</h3></div>
-				</div>
-		  </div>
+				<div class="row">
+    				<div class="col-md-4"><h3>Task</h3></div>
+    				<div class="col-md-4"><h3>Completed</h3></div>
+    				<div class="col-md-4"><h3>Date</h3></div>
+    			</div>
+			</div>
+			<div class="table" id="todoList">
+			</div>
 		 </div>
-		</div>
+	</div>
 
-	<form id="form">
-        <!-- Where tasks are appended to -->
-        <ol id="todoList"></ol>
-    </form>
+	    <!-- Where tasks are appended to -->
 
 </body>
 </html>
