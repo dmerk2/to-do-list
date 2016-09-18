@@ -9,6 +9,13 @@ $(document).ready(function(){
 	  var dd = today.getDate();
 	  var mm = today.getMonth()+1;
 	  var yyyy = today.getFullYear();
+
+
+
+	  // var deleteButton = delete
+
+
+
 		if(dd<10) {
 		   dd='0'+dd
 		} 
@@ -20,7 +27,7 @@ $(document).ready(function(){
 		items = items + 1;
 	  	$("#todoList").append('<div class="row">'
 	  							 + '<div class="col-md-4"><h3>'+items + ". " + add+'</h3></div>'
-	  							 + '<div class="col-md-4"><button class="glyphicon glyphicon-trash"></button></div>'
+	  							 + '<div class="col-md-4"><button id="trash" class="glyphicon glyphicon-trash"></button></div>'
 	  							 + '<div class="col-md-4"><h4>'+today+'</h4></div>'
 	  						 +'</div>');
 
