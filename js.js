@@ -26,9 +26,9 @@ $(document).ready(function(){
 		today = mm+'/'+dd+'/'+yyyy;
 		items = items + 1;
 	  	$("#todoList").append('<div class="row">'
-	  							 + '<div class="col-md-4"><h3>'+items + ". " + add+'</h3></div>'
-	  							 + '<div class="col-md-4"><button id="trash" class="glyphicon glyphicon-trash"></button></div>'
-	  							 + '<div class="col-md-4"><h4>'+today+'</h4></div>'
+	  							 + '<div class="col-xs-4"><h3>'+items + ". " + add+'</h3></div>'
+	  							 + '<div class="col-xs-4"><button id="trash" class="glyphicon glyphicon-trash"></button></div>'
+	  							 + '<div class="col-xs-4"><h4>'+today+'</h4></div>'
 	  						 +'</div>');
 
     				
@@ -38,6 +38,10 @@ $(document).ready(function(){
  		$("#input").val("");
  	});
 
+ 	$(document).on('click', '#trash', function(){
+ 		$(this).closest("div.row").remove();
+ 		items = items - 1;
+ 	});
 });
 
 
