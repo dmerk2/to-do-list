@@ -1,5 +1,3 @@
-
-
 var items = 0;
 
 $(document).ready(function(){
