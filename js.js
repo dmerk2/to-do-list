@@ -50,6 +50,6 @@ $(document).ready(function(){
  	$(document).on('click', '#trash', function(){
  		$(this).closest("div.row").remove();
  		items = items - 1;
- 		confirm("Are you sure you want to delete this task?")
+ 		confirm("Are you sure you want to delete this task?");
  	});
 });

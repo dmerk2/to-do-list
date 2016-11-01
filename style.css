@@ -1,5 +1,7 @@
 body{
-	background-color: rgba(185,123,20,0.2);
+	background: rgba(185,123,20,0.2);
+	background: repeating-linear-gradient(to right rgba(185,123,20,0.2), lightgrey, grey);
+	background: linear-gradient(rgba(185,123,20,0.2), lightgrey, grey));
 }
 
 .jumbotron{
